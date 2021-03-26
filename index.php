@@ -45,7 +45,7 @@ function sort_down(&$new_tasks)
     $data = $_GET['sort'];
     usort($new_tasks, function ($a, $b) {
         global $data;
-        return strcmp((string) $a[$data], (string) $b[$data]);
+        return strcmp((string) $b[$data], (string) $a[$data]);
     });
 }
 
