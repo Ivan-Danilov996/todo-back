@@ -25,7 +25,7 @@ function get_tasks()
 }
 
 
-function sort_up($new_tasks)
+function sort_up(&$new_tasks)
 {
     global $offset;
     global $data;
@@ -37,7 +37,7 @@ function sort_up($new_tasks)
     });
 }
 
-function sort_down($new_tasks)
+function sort_down(&$new_tasks)
 {
     global $offset;
     global $data;
