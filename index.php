@@ -4,7 +4,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: *');
 header('Access-Control-Allow-Methods: *');
 header('Access-Control-Allow-Credentials: true');
-$connect = mysqli_connect('remotemysql.com', 'LXoH1FNrh3', 'xUWrAdKnKX', 'LXoH1FNrh3');
+$connect = mysqli_connect('sql11.freesqldatabase.com', 'sql11439452', '9pCGNYPj15', 'sql11439452');
 
 $method = $_SERVER['REQUEST_METHOD'];
 $q = $_GET['q'];
